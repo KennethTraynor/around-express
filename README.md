@@ -1,17 +1,25 @@
 # Around the U.S. Front End + Back End
 
-## Directories
+This project will focus on creating the back end for the Around the U.S. website. 
 
-`/public` — static files from the build of the React front-end app.
+## Functionality
 
-`/data` — JSON files to temporarily emulate database integration.
+* The main functionality is handling requests from the front end and data management on the back end
 
-`/routes` — routing files.
+## Technologies & Techniques
 
-All other directories are optional and may be created by the developer if necessary. 
+**Technologies:**
 
-## Running the Project
+* Visual Studio Code: Website code
+  
+* Git: Used to work in different branches in order to manage the development of the website's features
 
-`npm run start` — to launch the server.
+* GitHub: Hosting the code for the webpage
 
-`npm run dev` — to launch the server with the hot reload feature.
+* Express: Back end framework
+
+**Techniques:**
+
+* Uses routing to add the ability to send or receive data from the back end
+
+* Uses fs to read and write data safely to files stored on the server
