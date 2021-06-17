@@ -6,11 +6,11 @@ router.get('/', (req, res) => {
     .then((data) => res.status(200).send(data));
 });
 
-router.get('/:id', (req, res) => {
+router.get('/:_id', (req, res) => {
   fs.readFile('./data/users.json', { encoding: 'utf-8' })
     .then((data) => {
-      const { id } = req.params;
-      const user = JSON.parse(data).find((u) => u._id === id);
+      const { _id } = req.params;
+      const user = JSON.parse(data).find((u) => u._id === _id);
 
       if (!user) {
         res.status(404).send({ message: 'User ID not found' });
