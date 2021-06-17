@@ -20,6 +20,6 @@ This project will focus on creating the back end for the Around the U.S. website
 
 **Techniques:**
 
-* Uses routing to add the ability to send or receive data from the back end
+* Routing to add the ability to send or receive data from the back end
 
-* Uses fs to read and write data safely to files stored on the server
+* fs to read and write data safely to back end files
