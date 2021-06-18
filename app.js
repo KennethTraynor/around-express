@@ -10,7 +10,7 @@ app.use('/users', userRouter);
 app.use('/cards', cardsRouter);
 
 app.use((req, res) => {
-  res.status(404).send({ message: 'Requested resource not found' });
+  res.status(404).send({ 'message': 'Requested resource not found' });
 });
 
 app.listen(PORT);
